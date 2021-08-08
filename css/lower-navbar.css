@@ -1,0 +1,70 @@
+@import './global.css';
+
+.company-logo-nav {
+    padding: 15px 20px 15px 0px;
+}
+.company-logo-nav > img {
+    height: 29px;
+    max-height: 29px;
+    width: 172px;
+}
+.lower-nav {
+    display: grid;
+    height: 61px;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: auto auto;
+    padding: 0px 28px 0px 30px;
+    box-shadow: var(--box-shadow);
+}
+.lower-nav-link-container{
+    display: grid;
+    align-items: center;
+    column-gap: 30px;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.action-button {
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    justify-content: center;
+    padding: 12px 24px;
+    transition: all 0.3s ease;
+    line-height: 1;
+    border: 1px solid var(--hover-link-blue);
+    white-space: nowrap;
+}
+
+.action-button-signup {
+    background-color: var(--hover-link-blue);
+    color: #fff;
+    margin-left:18px;
+}
+
+.action-button-signin {
+    background-color: var(--white);
+    color: var(--product-blue);
+}
+
+.lower-nav-link {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--dark-blue);
+}
+
+.lower-nav-link:hover {
+    color: var(--hover-link-blue);
+}
+.lower-nav-link-dropdown:after {
+    content: '';
+    padding: 7px;
+    background: url('../assets/arrow-down.svg') no-repeat center;
+    fill: var(--hover-link-blue);
+}
+
+.lower-nav-link-dropdown:hover {
+    color: var(--product-blue);
+}
+

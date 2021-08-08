@@ -1,5 +1,18 @@
 @import './global.css';
 
+.quick-actions-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    column-gap: 25px;
+}
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 25px;
+    justify-content: space-between;
+    padding: 13px 30px 13px 25px; 
+    border-bottom: 1px solid var(--light-grey);
+}
 .navbar-link  {
     color: var(--cadet-blue);
     cursor: pointer;
@@ -7,11 +20,12 @@
     margin: 0;
     font-size: 12px;
     font-weight: 500;
+    white-space: nowrap;
 }
 .navbar-link:hover{
     color:var(--hover-link-blue);
 }
-.primary-link {
+.navbar-primary-link {
     color: var(--product-blue);
 }
 #navbar-pseudo-button{
@@ -25,3 +39,4 @@
     font-size: 9px;
     margin-right: 10px;
 }
+
