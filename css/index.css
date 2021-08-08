@@ -1,0 +1,11 @@
+@import './containers.css';
+@import './variables.css';
+
+body {
+    margin: 0;
+}
+
+.container{
+    background-color: var(--main-bg-color); 
+    padding: 50px
+}
