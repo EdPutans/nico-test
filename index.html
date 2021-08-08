@@ -5,26 +5,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- get fonts from google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./css/index.css">
   <title>This website is a sick nae nae</title>
 </head>
 
 <body>
-  <section>
-    <header></header>
-    <div>
+  <section class='sticky'>
+    <header class='header'>
+      <a class="navbar-link">
+        <span id="navbar-pseudo-button">Start your migration</span>
+        <span id='action-call'>Get expert guidance and resources to confidently migrate your workloads to DigitalOcean.</span>
+        <span style="font-size: 16px;">  &rsaquo; </span>
+      </a>
+    <div class="quick-actions">
+      <a class='navbar-link primary-link'>We're Hiring!</a>
+      <p class='primary-link'>//</p>
+      <a class='navbar-link'>Blog</a>
+      <a class='navbar-link'>Docs</a>
+      <a class='navbar-link'>Get Support</a>
+      <a class='navbar-link'>Sales</a>
+    </div>
+  </header>
 
-      <a>Start your migration</a>
-      <a>Get expert guidance and resources to confidently migrate your workloads to DigitalOcean.</a>
-    </div>
-    <div>
-      <a>We're Hiring!</a>
-      <p>//</p>
-      <a>Blog</a>
-      <a>Docs</a>
-      <a>Get Support</a>
-      <a>Sales</a>
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <nav>
       <div>
         <img />
@@ -39,10 +62,21 @@
         <button>sign up</button>
       </div>
     </nav>
-
   </section>
-  <section>
-
+  <section class="welcome">
+    <div>
+      <h1>Simplify your cloud</h1>
+      <p>Build alongside half a million developers and businesses like you.</p>
+      <span class='form-separator'></span>
+      <form>
+        <input required type='text' placeholder="First name" />
+        <input required type='email' placeholder="Email address" />
+        <input required type='password' placeholder="Password" />
+        <button type="submit">Deploy in seconds</button>
+        <google></google>
+        <github></github>
+      </form>
+    </div>
   </section>
 </body>
 

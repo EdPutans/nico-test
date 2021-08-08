@@ -1,0 +1,27 @@
+@import './global.css';
+
+.navbar-link  {
+    color: var(--cadet-blue);
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+.navbar-link:hover{
+    color:var(--hover-link-blue);
+}
+.primary-link {
+    color: var(--product-blue);
+}
+#navbar-pseudo-button{
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    cursor: default;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 9px;
+    margin-right: 10px;
+}

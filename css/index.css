@@ -1,11 +1,4 @@
 @import './containers.css';
-@import './variables.css';
+@import './global.css';
+@import './navbar.css';
 
-body {
-    margin: 0;
-}
-
-.container{
-    background-color: var(--main-bg-color); 
-    padding: 50px
-}
