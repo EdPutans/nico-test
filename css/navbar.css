@@ -28,7 +28,7 @@
 .navbar-primary-link {
     color: var(--product-blue);
 }
-#navbar-pseudo-button{
+.navbar-pseudo-button{
     background-color: var(--light-blue);
     color: var(--dark-blue);
     cursor: default;

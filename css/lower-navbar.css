@@ -42,7 +42,7 @@
 
 .button-primary{ 
     background-color: var(--hover-link-blue);
-    color: #fff;
+    color: var(--white);
 }
 .button-primary:hover{
     border: 1px solid rgb(0, 105, 255);
