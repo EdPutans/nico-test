@@ -77,14 +77,14 @@
 .terms-container{
     margin-top: 18px;
 }
-.terms-container > p, a{
+.terms-text{
     display: inline-block;
     font-size: 12px;
     color: var(--terms-grey);
 }
-.terms-container > a {
+.terms-link {
     text-decoration: underline;
 }
-.terms-container > a:hover{
+.terms-link:hover{
     color: var(--hover-link-blue);
 }

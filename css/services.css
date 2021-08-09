@@ -1,0 +1,118 @@
+@import './global.css';
+
+.services-section {
+    padding: 120px 24px;
+    background: url(https://prismic-io.s3.amazonaws.com/www-static/e2b726ab-087a-4e53-8aca-65826c3f93e7_bg-grid.svg);
+}
+
+.services-container{
+    max-width: 870px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.services-title{
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+}
+
+.services-desc {
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 770px;
+    color: var(--cadet-blue);
+}
+
+.services-cards-container{
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 290px 290px;
+    margin-top: 32px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.services-card{
+    background: var(--white);
+    border: 1px solid var(--light-grey);
+    box-shadow: 0px 2px 4px rgb(1 14 40 / 5%);
+    padding: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-align: left;
+    box-sizing: border-box;
+    position: relative;
+}   
+
+.services-card:hover{
+    box-shadow: 0px 10px 20px rgb(1 14 40 / 5%);
+    transform: scale(1.01);
+}
+
+.services-card-content{
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+
+.services-card-links{
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    padding: 30px;
+    height: 240px;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    opacity: 0;
+    grid-template-columns: 210px;
+}
+
+.services-card:hover .services-card-content{
+    opacity: 0;
+}
+.services-card:hover .services-card-links{
+    opacity: 1;
+}
+
+.services-card:last-child{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-card-icon{
+    margin-bottom: 20px;
+    transition: filter 100ms;
+}
+.services-card-title {
+    color: var(--dark-blue);
+}
+
+.services-card-desc {
+    color: var(--dark-blue);
+    font-size: 16px;
+    line-height: 26px;
+    margin: 16px 0;
+}
+
+.services-card-link {
+    margin: 8px 0;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.services-card-link > a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #0069ff;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.services-card-link:hover{
+    background: var(--off-white);
+}

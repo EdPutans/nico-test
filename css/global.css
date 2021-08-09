@@ -1,42 +1,55 @@
 
 :root{
     --product-blue: #0069ff;
-    --hover-link-blue: rgb(22, 51, 255);
-    --light-blue:rgb(0,215,210);
-    --dark-blue:rgb(3,27,78);
-    --light-grey: rgb(229,232,237);
+    --hover-link-blue: #1633ff;
+    --light-blue:#00d7d2;
+    --dark-blue:#031b4e;
+    --light-grey: #e5e8ed;
     --cadet-blue: #5b6987;
     --off-black: #0c182f;
     --black: #000000;
     --white: #FFFFFF;
     --off-white:#f2f8ff;
-    --box-shadow: rgb(3 27 78 / 10%) 0px 2px 4px;
-    --terms-grey: rgba(23,28,54,0.5);
+    --terms-grey: #171c3680;
 }
-button {
+
+button, p, a, h1, h2, h5 {
     font-family: Work Sans,"system-ui",-apple-system, BlinkMacSystemFont, Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,"sans-serif";
+}
+
+button {
     font-weight: 700;
 }
 
 p, a {
-  font-family: Work Sans,"system-ui",-apple-system, BlinkMacSystemFont, Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,"sans-serif";
   font-weight: 400;
   font-style: normal;
   margin: 0;
   line-height: 1em;
   font-size: 12px;
 }
+
 a:visited{
     color: inherit;
 }
 
 h1 {
     font-size: 48px;
-    text-align: left;
-    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
     margin-bottom: 0;
     font-weight: 600;
-    font-family: 'Work Sans', 'Helvetica', 'sans-serif';
+}
+
+h5 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0;
 }
 
 input {
@@ -59,7 +72,6 @@ input:hover{
 input:focus{
     outline: none;
 }
-
 body {
     margin: 0;
     scroll-behavior: smooth;
