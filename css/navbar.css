@@ -29,7 +29,12 @@
 }
 
 .navbar-primary-link {
-    color: var(--product-blue);
+    /* for some reason the tag picks up webkit styling? not sure what's going on. Had to use !important. Never would otherwise. */
+    color: var(--product-blue) !important;
+}
+
+.navbar-primary-link:hover {
+    color: var(--hover-link-blue) !important;
 }
 
 .navbar-pseudo-button {
