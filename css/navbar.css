@@ -1,19 +1,20 @@
 @import "./global.css";
-
 .quick-actions-container {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto ;
+    grid-template-columns: auto auto auto auto auto auto;
     column-gap: 25px;
 }
+
 .header {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 25px;
     justify-content: space-between;
-    padding: 13px 30px 13px 25px; 
+    padding: 13px 30px 13px 25px;
     border-bottom: 1px solid var(--light-grey);
 }
-.navbar-link  {
+
+.navbar-link {
     color: var(--cadet-blue);
     cursor: pointer;
     text-decoration: none;
@@ -22,13 +23,16 @@
     font-weight: 500;
     white-space: nowrap;
 }
-.navbar-link:hover{
-    color:var(--hover-link-blue);
+
+.navbar-link:hover {
+    color: var(--hover-link-blue);
 }
+
 .navbar-primary-link {
     color: var(--product-blue);
 }
-.navbar-pseudo-button{
+
+.navbar-pseudo-button {
     background-color: var(--light-blue);
     color: var(--dark-blue);
     cursor: default;
@@ -39,4 +43,3 @@
     font-size: 9px;
     margin-right: 8px;
 }
-

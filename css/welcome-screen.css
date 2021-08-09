@@ -1,10 +1,10 @@
 @import "./global.css";
-
-.welcome-screen{
+.welcome-screen {
     display: grid;
     grid-template-columns: 620px auto;
-
+    margin-bottom: 40px;
 }
+
 .hero-form-column {
     margin: 60px 5% 10px;
     padding: 0 20px;
@@ -17,45 +17,48 @@
     font-weight: 400;
     color: var(--off-black);
 }
-.hero-container{
+
+.hero-container {
     margin: auto;
     max-width: 430px;
 }
 
-.hero-form-thumbnail{
+.hero-form-thumbnail {
     height: 640px;
     border-radius: 0 0 0 240px;
     overflow: hidden;
 }
-.hero-form-thumbnail > img{ 
+
+.hero-form-thumbnail>img {
     border-bottom-left-radius: 240px;
     width: 100%;
     min-width: 975px;
 }
-.hero-form-thumbnail >img:hover {
+
+.hero-form-thumbnail>img:hover {
     cursor: url(https://www-static.cdn.prismic.io/www-static/d08f88f9-ddfa-49ac-93dc-15da48fa0b3f_home-video-play-btn.svg) 25 25, auto;
 }
 
-.form-separator{
+.form-separator {
     display: block;
     width: 80px;
     border-top: 1px solid rgba(12, 24, 47, 0.15);
     margin: 40px 0;
 }
 
-.hero-button-container{
+.hero-button-container {
     margin-top: 30px;
     display: grid;
     grid-template-columns: 210px auto;
 }
 
-.button-form-submit{
+.button-form-submit {
     font-size: 16px;
     height: 53px;
-    margin-top:3px;
+    margin-top: 3px;
 }
 
-.offshore-button{
+.offshore-button {
     background-color: transparent;
     border-radius: 100px;
     cursor: pointer;
@@ -66,25 +69,29 @@
     padding: 16px;
     box-shadow: 0px 8px 16px rgb(0 8 36 / 5%);
 }
-.offshore-button:hover{
-    background-color: var(--off-white);
-}   
 
-.offshore-button:first-child{
+.offshore-button:hover {
+    background-color: var(--off-white);
+}
+
+.offshore-button:first-child {
     margin: 0 16px 0 40px;
 }
 
-.terms-container{
+.terms-container {
     margin-top: 18px;
 }
-.terms-text{
+
+.terms-text {
     display: inline-block;
     font-size: 12px;
     color: var(--terms-grey);
 }
+
 .terms-link {
     text-decoration: underline;
 }
-.terms-link:hover{
+
+.terms-link:hover {
     color: var(--hover-link-blue);
 }
