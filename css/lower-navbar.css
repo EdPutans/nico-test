@@ -81,7 +81,7 @@
 .lower-nav-link-dropdown:after {
     content: "";
     padding: 7px;
-    background: url("../assets/arrow-down.svg") no-repeat center;
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI0IiB2aWV3Qm94PSIwIDAgOCA0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMC44NTI0MTcgMEMwLjQyNjM4MiAwIDAuMjEzMzY0IDAuNTIwNzEgMC41MjEwNTYgMC44Mjg0MDJMMy41NTA2NCAzLjg1Nzk5QzMuNzM5OTkgNC4wNDczNCA0LjA0NzY4IDQuMDQ3MzQgNC4yMzcwMyAzLjg1Nzk5TDcuMjY2NjIgMC44Mjg0MDJDNy41NzQzMSAwLjUyMDcxIDcuMzYxMjkgMCA2LjkzNTI2IDBIMC44NTI0MTdaIiBmaWxsPSIjODc5NEIwIi8+Cjwvc3ZnPgo=") no-repeat center;
     fill: var(--hover-link-blue);
 }
 
